@@ -6,7 +6,7 @@ class Solution {
         int l=0;
         int r=p-1;
 
-        int row=0;
+        int row=-1;
 
         while(l<=r){
             int m=l+(r-l)/2;
