@@ -11,13 +11,20 @@ class Solution {
         while(l<=r){
             int m=l+(r-l)/2;
 
-            if(target>=matrix[m][0]){
+            if(matrix[m][0]<=target && target<=matrix[m][n-1]){
                 row=m;
-                l=m+1;
+                break;
             }
-            else{
+            else if(matrix[m][0]>target){
                 r=m-1;
             }
+            else{
+                l=m+1;
+            }
+        }
+
+        if(row==-1){
+            return false;
         }
 
         l=0;
