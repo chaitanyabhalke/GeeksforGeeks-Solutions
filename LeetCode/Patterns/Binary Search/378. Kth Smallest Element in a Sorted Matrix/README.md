@@ -8,8 +8,8 @@
 Array, Binary Search, Sorting, Heap (Priority Queue), Matrix
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 1 ms
+- **Memory:** 51.6 MB
 
 ---
 
